@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: local('Segoe UI'), url("http://47.245.62.192:3001/SegoeUI.woff") format("woff");
+    font-weight: 500;
+}

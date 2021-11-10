@@ -1,0 +1,50 @@
+html,
+body,
+#root {
+  height: 100%;
+  font-family: Segoe UI;
+}
+.circle-1 {
+  animation-name: circle-1;
+  animation-duration: 23s;
+  animation-iteration-count: infinite;
+}
+
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.mt-1{
+  margin-top: 0.5rem !important;
+}
+
+// Custom Input
+.custom-input{
+  padding: 2px 4px;
+  display: flex;
+  align-content: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4375em;
+  background: #E9E9E9;
+  border: 1px solid #e5e8ec;
+  border-radius: 10px;
+  color: black !important;
+  transition: width 300ms ease;
+  &:hover {
+    background: #eaeef3;
+    border-color: #e5e8ec;
+  }
+  
+  &:focus {
+    outline: none;
+    transition: width 200ms ease-out;
+  }
+}
+
